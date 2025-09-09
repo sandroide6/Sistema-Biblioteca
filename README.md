@@ -20,32 +20,18 @@ Sistema de consola desarrollado en .NET 8 (C#) que permite gestionar el préstam
 
 ## 🚀 Ejecución
 
-### Ejecutar Aplicacion
+### Ejecutar la aplicacion
+
 cd SRC/Biblioteca
 dotnet run
 
-### Ejecutar Pruebas
+### Ejecutar las Pruebas
+
 cd SRC/Biblioteca.Tests
 dotnet test
 
-### Estrutura
-SRC/
-├── Biblioteca/                     (Proyecto principal)
-│   ├── Application/
-│   │   ├── IPoliticaPrestamo.cs    (Interface para políticas)
-│   │   ├── PoliticaPrestamoDocente.cs
-│   │   └── PoliticaPrestamoNormal.cs
-│   ├── Domain/
-│   │   ├── Libro.cs                (Clase abstracta base)
-│   │   ├── LibroDigital.cs         (Herencia - libro con URL)
-│   │   ├── LibroFisico.cs          (Herencia - libro con ubicación)
-│   │   ├── Prestamo.cs             (Entidad préstamo con fechas)
-│   │   ├── Socio.cs                (Entidad socio con tipo)
-│   │   └── TipoSocio.cs            (Enum: Estudiante/Docente)
-│   ├── Infrastructure/
-│   │   └── RepositorioLibrosEnMemoria.cs
-│   └── Program.cs                  (Punto de entrada y menú)
-├── Biblioteca.Tests/               (Proyecto de pruebas)
-│   ├── Biblioteca.Tests.csproj
-│   └── LibroFisicoTests.cs         (Pruebas unitarias)
-└── README.md
+### Menú Principal
+Al ejecutar la aplicación, verás las siguientes opciones:
+<img width="1052" height="340" alt="image" src="https://github.com/user-attachments/assets/55faea31-75d7-4510-83e9-55f39307d3a6" />
+
+
