@@ -54,4 +54,34 @@ dotnet test
 
 <img width="1443" height="875" alt="cap1" src="https://github.com/user-attachments/assets/ffb602d6-7703-46fb-9a69-2faa24f47aee" />
 
+## Cómo probar
+
+A continuación se describe un flujo de prueba básico para validar el funcionamiento del sistema:
+
+1. **Registrar un libro físico**
+   - Ir al menú → opción **Agregar libro**.
+   - Ingresar los datos (ID, título, autor, tipo = Físico).
+   - El libro queda registrado en el sistema.
+
+2. **Registrar un socio estudiante**
+   - Ir al menú → opción **Registrar socio**.
+   - Ingresar los datos (ID, nombre, tipo de socio = Estudiante).
+   - El socio queda registrado en el sistema.
+
+3. **Registrar un préstamo para el socio**
+   - Ir al menú → opción **Registrar préstamo**.
+   - Seleccionar el **socio estudiante** y el **libro físico** registrado.
+   - El sistema valida la política de préstamo:
+     - Estudiante → menos días disponibles.
+     - Docente → más días disponibles.
+   - El préstamo queda registrado.
+
+4. **Listar préstamos y validar disponibilidad**
+   - Ir al menú → opción **Listar préstamos**.
+   - El sistema muestra:
+     - Libros prestados.
+     - Socios a quienes se prestó.
+     - Tiempo de préstamo.
+   - El libro aparece como **No disponible** hasta su devolución.
+
 
