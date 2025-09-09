@@ -44,13 +44,13 @@ dotnet test
 
 
 
-Registrar Libro:
+📌Registrar Libro:
 
 <img width="1371" height="766" alt="cap2" src="https://github.com/user-attachments/assets/b86665e9-acdd-4f4e-8d74-34b61ae56df5" />
 
 
 
-Listado de Libros:
+📌Listado de Libros:
 
 <img width="1443" height="875" alt="cap1" src="https://github.com/user-attachments/assets/ffb602d6-7703-46fb-9a69-2faa24f47aee" />
 
