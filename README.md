@@ -4,13 +4,18 @@
 
 Sistema de consola desarrollado en .NET 8 (C#) que permite gestionar el préstamo de libros en una biblioteca, aplicando los 4 pilares de la Programación Orientada a Objetos: **Encapsulamiento**, **Herencia**, **Polimorfismo** y **Abstracción**.
 
-## 🎯 Caso de Negocio
+El sistema está diseñado con una arquitectura en capas que separa las responsabilidades en:
 
-**Problema:** Las bibliotecas necesitan un sistema eficiente para controlar el préstamo de libros físicos y digitales, validando disponibilidad, fechas de devolución y políticas específicas según el tipo de usuario.
+Domain → Entidades principales como Libro, Socio, Prestamo.
 
-**Usuarios:** Bibliotecarios y administradores del sistema.
+Application → Interfaces y reglas de negocio (ILibroRepositorio).
 
-**Valor:** Automatiza el control de préstamos, reduce errores manuales y mejora el seguimiento de la disponibilidad de recursos.
+Infrastructure → Implementaciones de persistencia (Memoria y JSON).
+
+ConsoleApp → Aplicación de consola con menú interactivo.
+
+Tests → Pruebas unitarias con xUnit.
+
 
 ## ⚡ Requisitos del Sistema
 
@@ -31,6 +36,7 @@ cd SRC/Biblioteca.Tests
 dotnet test
 
 ### Menú Principal
+
 Al ejecutar la aplicación, verás las siguientes opciones:
 <img width="1052" height="340" alt="image" src="https://github.com/user-attachments/assets/55faea31-75d7-4510-83e9-55f39307d3a6" />
 
