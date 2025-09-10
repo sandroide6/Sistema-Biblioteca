@@ -2,7 +2,7 @@
 
 ## 📖 Descripción del Proyecto
 
-Sistema de consola desarrollado en .NET 8 (C#) que permite gestionar el préstamo de libros en una biblioteca, aplicando los 4 pilares de la Programación Orientada a Objetos: **Encapsulamiento**, **Herencia**, **Polimorfismo** y **Abstracción**.
+Sistema de consola desarrollado en .NET 8 (C#) que permite gestionar el préstamo de libros en una biblioteca, aplicando los 4 pilares de la Programación Orientada a Objetos
 
 El sistema está diseñado con una arquitectura en capas que separa las responsabilidades en:
 
